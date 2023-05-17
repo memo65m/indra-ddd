@@ -16,3 +16,33 @@
 2023-05-17 13:26:50.541  INFO 13068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4335 ms. Found 1 R2DBC repository interfaces.
 2023-05-17 13:26:54.147  INFO 13068 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
 2023-05-17 13:26:54.170  INFO 13068 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 9.937 seconds (JVM running for 11.927)
+2023-05-17 17:06:38.023  INFO 18384 --- [main] c.e.i.i.controllers.PriceControllerTest  : Starting PriceControllerTest using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 18384 (started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
+2023-05-17 17:06:38.034  INFO 18384 --- [main] c.e.i.i.controllers.PriceControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2023-05-17 17:06:40.367  INFO 18384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-05-17 17:06:41.069  INFO 18384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 684 ms. Found 1 R2DBC repository interfaces.
+2023-05-17 17:06:47.328  INFO 18384 --- [main] c.e.i.i.controllers.PriceControllerTest  : Started PriceControllerTest in 11.059 seconds (JVM running for 18.527)
+2023-05-17 17:06:49.893  INFO 18384 --- [main] reactor.Flux.OnAssembly.1                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-17 17:06:49.909  INFO 18384 --- [main] reactor.Flux.OnAssembly.1                : | request(unbounded)
+2023-05-17 17:06:50.168  INFO 18384 --- [main] reactor.Flux.OnAssembly.1                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
+2023-05-17 17:06:50.258  INFO 18384 --- [main] reactor.Flux.OnAssembly.1                : | onComplete()
+2023-05-17 17:06:50.331  INFO 18384 --- [main] reactor.Flux.OnAssembly.2                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-17 17:06:50.332  INFO 18384 --- [main] reactor.Flux.OnAssembly.2                : | request(unbounded)
+2023-05-17 17:06:50.334  INFO 18384 --- [main] reactor.Flux.OnAssembly.2                : | onNext(Price(productId=35455, brandId=1, priceList=2, startDate=2020-06-14T15:00:00, endDate=2020-06-14T18:30:00, price=25))
+2023-05-17 17:06:50.337  INFO 18384 --- [main] reactor.Flux.OnAssembly.2                : | onComplete()
+2023-05-17 17:06:50.374  INFO 18384 --- [main] reactor.Flux.OnAssembly.3                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-17 17:06:50.376  INFO 18384 --- [main] reactor.Flux.OnAssembly.3                : | request(unbounded)
+2023-05-17 17:06:50.378  INFO 18384 --- [main] reactor.Flux.OnAssembly.3                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
+2023-05-17 17:06:50.386  INFO 18384 --- [main] reactor.Flux.OnAssembly.3                : | onComplete()
+2023-05-17 17:06:50.412  INFO 18384 --- [main] reactor.Flux.OnAssembly.4                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-17 17:06:50.412  INFO 18384 --- [main] reactor.Flux.OnAssembly.4                : | request(unbounded)
+2023-05-17 17:06:50.415  INFO 18384 --- [main] reactor.Flux.OnAssembly.4                : | onNext(Price(productId=35455, brandId=1, priceList=3, startDate=2020-06-15T00:00:00, endDate=2020-06-15T11:00:00, price=31))
+2023-05-17 17:06:50.416  INFO 18384 --- [main] reactor.Flux.OnAssembly.4                : | onComplete()
+2023-05-17 17:06:50.446  INFO 18384 --- [main] reactor.Flux.OnAssembly.5                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-17 17:06:50.446  INFO 18384 --- [main] reactor.Flux.OnAssembly.5                : | request(unbounded)
+2023-05-17 17:06:50.452  INFO 18384 --- [main] reactor.Flux.OnAssembly.5                : | onNext(Price(productId=35455, brandId=1, priceList=4, startDate=2020-06-15T16:00:00, endDate=2020-12-31T23:59:59, price=39))
+2023-05-17 17:06:50.454  INFO 18384 --- [main] reactor.Flux.OnAssembly.5                : | onComplete()
+2023-05-17 17:07:15.318  INFO 10656 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 10656 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
+2023-05-17 17:07:15.351  INFO 10656 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-05-17 17:07:16.627  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-05-17 17:07:16.883  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 248 ms. Found 1 R2DBC repository interfaces.
+2023-05-17 17:07:26.268  INFO 10656 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
