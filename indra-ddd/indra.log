@@ -139,3 +139,9 @@
 2023-05-17 17:25:57.906  INFO 14136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 1 R2DBC repository interfaces.
 2023-05-17 17:26:01.093  INFO 14136 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
 2023-05-17 17:26:01.108  INFO 14136 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 5.44 seconds (JVM running for 7.574)
+2023-05-17 18:09:30.358  INFO 5488 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 5488 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
+2023-05-17 18:09:30.364  INFO 5488 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-05-17 18:09:31.396  INFO 5488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-05-17 18:09:31.549  INFO 5488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 R2DBC repository interfaces.
+2023-05-17 18:09:34.022  INFO 5488 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
+2023-05-17 18:09:34.038  INFO 5488 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 4.447 seconds (JVM running for 6.337)
