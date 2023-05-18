@@ -1,147 +1,42 @@
-2023-05-17 11:02:12.291  INFO 5160 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 5160 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 11:02:12.297  INFO 5160 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 11:02:13.432  INFO 5160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 11:02:13.453  INFO 5160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 R2DBC repository interfaces.
-2023-05-17 11:02:16.277  INFO 5160 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
-2023-05-17 11:02:16.293  INFO 5160 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 4.849 seconds (JVM running for 7.016)
-2023-05-17 12:20:39.410  INFO 1428 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 1428 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 12:20:39.430  INFO 1428 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 12:20:40.832  INFO 1428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 12:20:41.037  INFO 1428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 193 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 12:20:46.562  INFO 1428 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
-2023-05-17 12:20:46.586  INFO 1428 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 8.233 seconds (JVM running for 13.217)
-2023-05-17 13:26:45.047  INFO 13068 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 13068 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 13:26:45.052  INFO 13068 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 13:26:46.195  INFO 13068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 13:26:50.541  INFO 13068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4335 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 13:26:54.147  INFO 13068 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
-2023-05-17 13:26:54.170  INFO 13068 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 9.937 seconds (JVM running for 11.927)
-2023-05-17 17:06:38.023  INFO 18384 --- [main] c.e.i.i.controllers.PriceControllerTest  : Starting PriceControllerTest using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 18384 (started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 17:06:38.034  INFO 18384 --- [main] c.e.i.i.controllers.PriceControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 17:06:40.367  INFO 18384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 17:06:41.069  INFO 18384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 684 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 17:06:47.328  INFO 18384 --- [main] c.e.i.i.controllers.PriceControllerTest  : Started PriceControllerTest in 11.059 seconds (JVM running for 18.527)
-2023-05-17 17:06:49.893  INFO 18384 --- [main] reactor.Flux.OnAssembly.1                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:06:49.909  INFO 18384 --- [main] reactor.Flux.OnAssembly.1                : | request(unbounded)
-2023-05-17 17:06:50.168  INFO 18384 --- [main] reactor.Flux.OnAssembly.1                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
-2023-05-17 17:06:50.258  INFO 18384 --- [main] reactor.Flux.OnAssembly.1                : | onComplete()
-2023-05-17 17:06:50.331  INFO 18384 --- [main] reactor.Flux.OnAssembly.2                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:06:50.332  INFO 18384 --- [main] reactor.Flux.OnAssembly.2                : | request(unbounded)
-2023-05-17 17:06:50.334  INFO 18384 --- [main] reactor.Flux.OnAssembly.2                : | onNext(Price(productId=35455, brandId=1, priceList=2, startDate=2020-06-14T15:00:00, endDate=2020-06-14T18:30:00, price=25))
-2023-05-17 17:06:50.337  INFO 18384 --- [main] reactor.Flux.OnAssembly.2                : | onComplete()
-2023-05-17 17:06:50.374  INFO 18384 --- [main] reactor.Flux.OnAssembly.3                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:06:50.376  INFO 18384 --- [main] reactor.Flux.OnAssembly.3                : | request(unbounded)
-2023-05-17 17:06:50.378  INFO 18384 --- [main] reactor.Flux.OnAssembly.3                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
-2023-05-17 17:06:50.386  INFO 18384 --- [main] reactor.Flux.OnAssembly.3                : | onComplete()
-2023-05-17 17:06:50.412  INFO 18384 --- [main] reactor.Flux.OnAssembly.4                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:06:50.412  INFO 18384 --- [main] reactor.Flux.OnAssembly.4                : | request(unbounded)
-2023-05-17 17:06:50.415  INFO 18384 --- [main] reactor.Flux.OnAssembly.4                : | onNext(Price(productId=35455, brandId=1, priceList=3, startDate=2020-06-15T00:00:00, endDate=2020-06-15T11:00:00, price=31))
-2023-05-17 17:06:50.416  INFO 18384 --- [main] reactor.Flux.OnAssembly.4                : | onComplete()
-2023-05-17 17:06:50.446  INFO 18384 --- [main] reactor.Flux.OnAssembly.5                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:06:50.446  INFO 18384 --- [main] reactor.Flux.OnAssembly.5                : | request(unbounded)
-2023-05-17 17:06:50.452  INFO 18384 --- [main] reactor.Flux.OnAssembly.5                : | onNext(Price(productId=35455, brandId=1, priceList=4, startDate=2020-06-15T16:00:00, endDate=2020-12-31T23:59:59, price=39))
-2023-05-17 17:06:50.454  INFO 18384 --- [main] reactor.Flux.OnAssembly.5                : | onComplete()
-2023-05-17 17:07:15.318  INFO 10656 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 10656 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 17:07:15.351  INFO 10656 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 17:07:16.627  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 17:07:16.883  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 248 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 17:07:26.268  INFO 10656 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
-2023-05-17 17:07:26.307  INFO 10656 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 12.195 seconds (JVM running for 14.479)
-2023-05-17 17:19:05.852  INFO 15604 --- [main] c.e.i.i.controllers.PriceControllerTest  : Starting PriceControllerTest using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 15604 (started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 17:19:05.857  INFO 15604 --- [main] c.e.i.i.controllers.PriceControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 17:19:08.256  INFO 15604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 17:19:08.831  INFO 15604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 559 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 17:19:14.932  INFO 15604 --- [main] c.e.i.i.controllers.PriceControllerTest  : Started PriceControllerTest in 10.518 seconds (JVM running for 14.145)
-2023-05-17 17:19:17.492  INFO 15604 --- [main] reactor.Flux.OnAssembly.1                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:19:17.502  INFO 15604 --- [main] reactor.Flux.OnAssembly.1                : | request(unbounded)
-2023-05-17 17:19:17.767  INFO 15604 --- [main] reactor.Flux.OnAssembly.1                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
-2023-05-17 17:19:17.830  INFO 15604 --- [main] reactor.Flux.OnAssembly.1                : | onComplete()
-2023-05-17 17:19:17.968  INFO 15604 --- [main] reactor.Flux.OnAssembly.2                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:19:17.969  INFO 15604 --- [main] reactor.Flux.OnAssembly.2                : | request(unbounded)
-2023-05-17 17:19:17.972  INFO 15604 --- [main] reactor.Flux.OnAssembly.2                : | onNext(Price(productId=35455, brandId=1, priceList=2, startDate=2020-06-14T15:00:00, endDate=2020-06-14T18:30:00, price=25))
-2023-05-17 17:19:17.986  INFO 15604 --- [main] reactor.Flux.OnAssembly.2                : | onComplete()
-2023-05-17 17:19:18.084  INFO 15604 --- [main] reactor.Flux.OnAssembly.3                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:19:18.085  INFO 15604 --- [main] reactor.Flux.OnAssembly.3                : | request(unbounded)
-2023-05-17 17:19:18.089  INFO 15604 --- [main] reactor.Flux.OnAssembly.3                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
-2023-05-17 17:19:18.090  INFO 15604 --- [main] reactor.Flux.OnAssembly.3                : | onComplete()
-2023-05-17 17:19:18.134  INFO 15604 --- [main] reactor.Flux.OnAssembly.4                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:19:18.134  INFO 15604 --- [main] reactor.Flux.OnAssembly.4                : | request(unbounded)
-2023-05-17 17:19:18.136  INFO 15604 --- [main] reactor.Flux.OnAssembly.4                : | onNext(Price(productId=35455, brandId=1, priceList=3, startDate=2020-06-15T00:00:00, endDate=2020-06-15T11:00:00, price=31))
-2023-05-17 17:19:18.137  INFO 15604 --- [main] reactor.Flux.OnAssembly.4                : | onComplete()
-2023-05-17 17:19:18.193  INFO 15604 --- [main] reactor.Flux.OnAssembly.5                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:19:18.194  INFO 15604 --- [main] reactor.Flux.OnAssembly.5                : | request(unbounded)
-2023-05-17 17:19:18.197  INFO 15604 --- [main] reactor.Flux.OnAssembly.5                : | onNext(Price(productId=35455, brandId=1, priceList=4, startDate=2020-06-15T16:00:00, endDate=2020-12-31T23:59:59, price=39))
-2023-05-17 17:19:18.198  INFO 15604 --- [main] reactor.Flux.OnAssembly.5                : | onComplete()
-2023-05-17 17:20:10.347  INFO 5916 --- [main] c.e.i.i.controllers.PriceControllerTest  : Starting PriceControllerTest using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 5916 (started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 17:20:10.354  INFO 5916 --- [main] c.e.i.i.controllers.PriceControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 17:20:12.612  INFO 5916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 17:20:13.332  INFO 5916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 702 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 17:20:21.389  INFO 5916 --- [main] c.e.i.i.controllers.PriceControllerTest  : Started PriceControllerTest in 12.499 seconds (JVM running for 16.719)
-2023-05-17 17:20:23.429  INFO 5916 --- [main] reactor.Flux.OnAssembly.1                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:20:23.436  INFO 5916 --- [main] reactor.Flux.OnAssembly.1                : | request(unbounded)
-2023-05-17 17:20:23.614  INFO 5916 --- [main] reactor.Flux.OnAssembly.1                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
-2023-05-17 17:20:23.665  INFO 5916 --- [main] reactor.Flux.OnAssembly.1                : | onComplete()
-2023-05-17 17:20:23.723  INFO 5916 --- [main] reactor.Flux.OnAssembly.2                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:20:23.724  INFO 5916 --- [main] reactor.Flux.OnAssembly.2                : | request(unbounded)
-2023-05-17 17:20:23.728  INFO 5916 --- [main] reactor.Flux.OnAssembly.2                : | onNext(Price(productId=35455, brandId=1, priceList=2, startDate=2020-06-14T15:00:00, endDate=2020-06-14T18:30:00, price=25))
-2023-05-17 17:20:23.731  INFO 5916 --- [main] reactor.Flux.OnAssembly.2                : | onComplete()
-2023-05-17 17:20:23.769  INFO 5916 --- [main] reactor.Flux.OnAssembly.3                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:20:23.770  INFO 5916 --- [main] reactor.Flux.OnAssembly.3                : | request(unbounded)
-2023-05-17 17:20:23.772  INFO 5916 --- [main] reactor.Flux.OnAssembly.3                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
-2023-05-17 17:20:23.774  INFO 5916 --- [main] reactor.Flux.OnAssembly.3                : | onComplete()
-2023-05-17 17:20:23.802  INFO 5916 --- [main] reactor.Flux.OnAssembly.4                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:20:23.802  INFO 5916 --- [main] reactor.Flux.OnAssembly.4                : | request(unbounded)
-2023-05-17 17:20:23.805  INFO 5916 --- [main] reactor.Flux.OnAssembly.4                : | onNext(Price(productId=35455, brandId=1, priceList=3, startDate=2020-06-15T00:00:00, endDate=2020-06-15T11:00:00, price=31))
-2023-05-17 17:20:23.805  INFO 5916 --- [main] reactor.Flux.OnAssembly.4                : | onComplete()
-2023-05-17 17:20:23.847  INFO 5916 --- [main] reactor.Flux.OnAssembly.5                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:20:23.849  INFO 5916 --- [main] reactor.Flux.OnAssembly.5                : | request(unbounded)
-2023-05-17 17:20:23.854  INFO 5916 --- [main] reactor.Flux.OnAssembly.5                : | onNext(Price(productId=35455, brandId=1, priceList=4, startDate=2020-06-15T16:00:00, endDate=2020-12-31T23:59:59, price=39))
-2023-05-17 17:20:23.855  INFO 5916 --- [main] reactor.Flux.OnAssembly.5                : | onComplete()
-2023-05-17 17:25:23.948  INFO 16320 --- [main] c.e.indraddd.IndraDddApplicationTests    : Starting IndraDddApplicationTests using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 16320 (started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 17:25:23.953  INFO 16320 --- [main] c.e.indraddd.IndraDddApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 17:25:30.509  INFO 16320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 17:25:31.155  INFO 16320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 631 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 17:25:37.287  INFO 16320 --- [main] c.e.indraddd.IndraDddApplicationTests    : Started IndraDddApplicationTests in 14.441 seconds (JVM running for 18.935)
-2023-05-17 17:25:38.533  INFO 16320 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.indraddd.infrastructure.controllers.PriceControllerTest], using SpringBootContextLoader
-2023-05-17 17:25:38.536  INFO 16320 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.indraddd.infrastructure.controllers.PriceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2023-05-17 17:25:38.539  INFO 16320 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.indraddd.infrastructure.controllers.PriceControllerTest]: PriceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-05-17 17:25:38.575  INFO 16320 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.indraddd.IndraDddApplication for test class com.example.indraddd.infrastructure.controllers.PriceControllerTest
-2023-05-17 17:25:38.597  INFO 16320 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2023-05-17 17:25:38.609  INFO 16320 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2f8f40cc, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@14d81f2c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5dd3727c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@774013dc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@229cb4d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@76e9eed8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@30ef32eb, org.springframework.test.context.event.EventPublishingTestExecutionListener@474619d9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@bb5f9d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@391dfe7c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@702cfbde, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7d3bcd3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5dce5c03, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@b76b7d8]
-2023-05-17 17:25:38.697  INFO 16320 --- [main] c.e.i.i.controllers.PriceControllerTest  : Starting PriceControllerTest using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 16320 (started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 17:25:38.698  INFO 16320 --- [main] c.e.i.i.controllers.PriceControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 17:25:39.858  INFO 16320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 17:25:39.937  INFO 16320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 17:25:41.527  INFO 16320 --- [main] c.e.i.i.controllers.PriceControllerTest  : Started PriceControllerTest in 2.913 seconds (JVM running for 23.175)
-2023-05-17 17:25:42.208  INFO 16320 --- [main] reactor.Flux.OnAssembly.1                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:25:42.231  INFO 16320 --- [main] reactor.Flux.OnAssembly.1                : | request(unbounded)
-2023-05-17 17:25:42.447  INFO 16320 --- [main] reactor.Flux.OnAssembly.1                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
-2023-05-17 17:25:42.495  INFO 16320 --- [main] reactor.Flux.OnAssembly.1                : | onComplete()
-2023-05-17 17:25:42.538  INFO 16320 --- [main] reactor.Flux.OnAssembly.2                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:25:42.544  INFO 16320 --- [main] reactor.Flux.OnAssembly.2                : | request(unbounded)
-2023-05-17 17:25:42.553  INFO 16320 --- [main] reactor.Flux.OnAssembly.2                : | onNext(Price(productId=35455, brandId=1, priceList=2, startDate=2020-06-14T15:00:00, endDate=2020-06-14T18:30:00, price=25))
-2023-05-17 17:25:42.555  INFO 16320 --- [main] reactor.Flux.OnAssembly.2                : | onComplete()
-2023-05-17 17:25:42.617  INFO 16320 --- [main] reactor.Flux.OnAssembly.3                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:25:42.618  INFO 16320 --- [main] reactor.Flux.OnAssembly.3                : | request(unbounded)
-2023-05-17 17:25:42.619  INFO 16320 --- [main] reactor.Flux.OnAssembly.3                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=36))
-2023-05-17 17:25:42.620  INFO 16320 --- [main] reactor.Flux.OnAssembly.3                : | onComplete()
-2023-05-17 17:25:42.639  INFO 16320 --- [main] reactor.Flux.OnAssembly.4                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:25:42.640  INFO 16320 --- [main] reactor.Flux.OnAssembly.4                : | request(unbounded)
-2023-05-17 17:25:42.641  INFO 16320 --- [main] reactor.Flux.OnAssembly.4                : | onNext(Price(productId=35455, brandId=1, priceList=3, startDate=2020-06-15T00:00:00, endDate=2020-06-15T11:00:00, price=31))
-2023-05-17 17:25:42.641  INFO 16320 --- [main] reactor.Flux.OnAssembly.4                : | onComplete()
-2023-05-17 17:25:42.668  INFO 16320 --- [main] reactor.Flux.OnAssembly.5                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
-2023-05-17 17:25:42.668  INFO 16320 --- [main] reactor.Flux.OnAssembly.5                : | request(unbounded)
-2023-05-17 17:25:42.669  INFO 16320 --- [main] reactor.Flux.OnAssembly.5                : | onNext(Price(productId=35455, brandId=1, priceList=4, startDate=2020-06-15T16:00:00, endDate=2020-12-31T23:59:59, price=39))
-2023-05-17 17:25:42.670  INFO 16320 --- [main] reactor.Flux.OnAssembly.5                : | onComplete()
-2023-05-17 17:25:56.484  INFO 14136 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 14136 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 17:25:56.491  INFO 14136 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 17:25:57.730  INFO 14136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 17:25:57.906  INFO 14136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 17:26:01.093  INFO 14136 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
-2023-05-17 17:26:01.108  INFO 14136 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 5.44 seconds (JVM running for 7.574)
-2023-05-17 18:09:30.358  INFO 5488 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 5488 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
-2023-05-17 18:09:30.364  INFO 5488 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
-2023-05-17 18:09:31.396  INFO 5488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2023-05-17 18:09:31.549  INFO 5488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 R2DBC repository interfaces.
-2023-05-17 18:09:34.022  INFO 5488 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
-2023-05-17 18:09:34.038  INFO 5488 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 4.447 seconds (JVM running for 6.337)
+2023-05-18 08:39:20.948  INFO 7320 --- [main] c.example.indraddd.IndraDddApplication   : Starting IndraDddApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 7320 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
+2023-05-18 08:39:20.970  INFO 7320 --- [main] c.example.indraddd.IndraDddApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-05-18 08:39:22.376  INFO 7320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-05-18 08:39:22.577  INFO 7320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 185 ms. Found 1 R2DBC repository interfaces.
+2023-05-18 08:39:25.867  INFO 7320 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
+2023-05-18 08:39:25.887  INFO 7320 --- [main] c.example.indraddd.IndraDddApplication   : Started IndraDddApplication in 6.007 seconds (JVM running for 12.94)
+2023-05-18 08:40:31.085  INFO 14192 --- [main] c.e.indraddd.IndraDddApplicationTests    : Starting IndraDddApplicationTests using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 14192 (started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
+2023-05-18 08:40:31.090  INFO 14192 --- [main] c.e.indraddd.IndraDddApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-05-18 08:40:33.844  INFO 14192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-05-18 08:40:34.640  INFO 14192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 785 ms. Found 1 R2DBC repository interfaces.
+2023-05-18 08:40:39.978  INFO 14192 --- [main] c.e.indraddd.IndraDddApplicationTests    : Started IndraDddApplicationTests in 10.018 seconds (JVM running for 13.931)
+2023-05-18 08:40:40.887  INFO 14192 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.indraddd.infrastructure.controllers.PriceControllerTest], using SpringBootContextLoader
+2023-05-18 08:40:40.889  INFO 14192 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.indraddd.infrastructure.controllers.PriceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-05-18 08:40:40.890  INFO 14192 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.indraddd.infrastructure.controllers.PriceControllerTest]: PriceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-18 08:40:40.925  INFO 14192 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.indraddd.IndraDddApplication for test class com.example.indraddd.infrastructure.controllers.PriceControllerTest
+2023-05-18 08:40:40.931  INFO 14192 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-05-18 08:40:40.934  INFO 14192 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f2fdf3d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@d180961, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4af7ac25, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@d978ab9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cf06a01, org.springframework.test.context.transaction.TransactionalTestExecutionListener@71ee2fff, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@68f2363, org.springframework.test.context.event.EventPublishingTestExecutionListener@37fca349, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@86377d5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@87220f1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@77998ea7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@252d8df6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@36638b59, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2f8f40cc]
+2023-05-18 08:40:41.125  INFO 14192 --- [main] c.e.i.i.controllers.PriceControllerTest  : Starting PriceControllerTest using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 14192 (started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-ddd\indra-ddd)
+2023-05-18 08:40:41.127  INFO 14192 --- [main] c.e.i.i.controllers.PriceControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2023-05-18 08:40:41.754  INFO 14192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-05-18 08:40:41.814  INFO 14192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 R2DBC repository interfaces.
+2023-05-18 08:40:43.962  INFO 14192 --- [main] c.e.i.i.controllers.PriceControllerTest  : Started PriceControllerTest in 3.0 seconds (JVM running for 17.915)
+2023-05-18 08:40:44.666  INFO 14192 --- [main] reactor.Flux.OnAssembly.1                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-18 08:40:44.674  INFO 14192 --- [main] reactor.Flux.OnAssembly.1                : | request(unbounded)
+2023-05-18 08:40:45.006  INFO 14192 --- [main] reactor.Flux.OnAssembly.1                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=35.50))
+2023-05-18 08:40:45.056  INFO 14192 --- [main] reactor.Flux.OnAssembly.1                : | onComplete()
+2023-05-18 08:40:45.095  INFO 14192 --- [main] reactor.Flux.OnAssembly.2                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-18 08:40:45.096  INFO 14192 --- [main] reactor.Flux.OnAssembly.2                : | request(unbounded)
+2023-05-18 08:40:45.100  INFO 14192 --- [main] reactor.Flux.OnAssembly.2                : | onNext(Price(productId=35455, brandId=1, priceList=2, startDate=2020-06-14T15:00:00, endDate=2020-06-14T18:30:00, price=25.45))
+2023-05-18 08:40:45.101  INFO 14192 --- [main] reactor.Flux.OnAssembly.2                : | onComplete()
+2023-05-18 08:40:45.192  INFO 14192 --- [main] reactor.Flux.OnAssembly.3                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-18 08:40:45.194  INFO 14192 --- [main] reactor.Flux.OnAssembly.3                : | request(unbounded)
+2023-05-18 08:40:45.196  INFO 14192 --- [main] reactor.Flux.OnAssembly.3                : | onNext(Price(productId=35455, brandId=1, priceList=1, startDate=2020-06-14T00:00:00, endDate=2020-12-31T23:59:59, price=35.50))
+2023-05-18 08:40:45.197  INFO 14192 --- [main] reactor.Flux.OnAssembly.3                : | onComplete()
+2023-05-18 08:40:45.223  INFO 14192 --- [main] reactor.Flux.OnAssembly.4                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-18 08:40:45.224  INFO 14192 --- [main] reactor.Flux.OnAssembly.4                : | request(unbounded)
+2023-05-18 08:40:45.227  INFO 14192 --- [main] reactor.Flux.OnAssembly.4                : | onNext(Price(productId=35455, brandId=1, priceList=3, startDate=2020-06-15T00:00:00, endDate=2020-06-15T11:00:00, price=30.50))
+2023-05-18 08:40:45.228  INFO 14192 --- [main] reactor.Flux.OnAssembly.4                : | onComplete()
+2023-05-18 08:40:45.277  INFO 14192 --- [main] reactor.Flux.OnAssembly.5                : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2023-05-18 08:40:45.278  INFO 14192 --- [main] reactor.Flux.OnAssembly.5                : | request(unbounded)
+2023-05-18 08:40:45.280  INFO 14192 --- [main] reactor.Flux.OnAssembly.5                : | onNext(Price(productId=35455, brandId=1, priceList=4, startDate=2020-06-15T16:00:00, endDate=2020-12-31T23:59:59, price=38.95))
+2023-05-18 08:40:45.281  INFO 14192 --- [main] reactor.Flux.OnAssembly.5                : | onComplete()

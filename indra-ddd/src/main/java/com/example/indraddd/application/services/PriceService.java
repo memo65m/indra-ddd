@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Mono;
 
 @RequiredArgsConstructor
-public class PriceService implements RetrievePriceUseCase {
+public class PriceService implements IPriceService {
 
     private final RetrievePriceUseCase retrievePriceUseCase;
 

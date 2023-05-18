@@ -1,6 +1,6 @@
 package com.example.indraddd.infrastructure.controllers;
 
-import com.example.indraddd.application.services.PriceService;
+import com.example.indraddd.application.services.IPriceService;
 import com.example.indraddd.domain.models.Price;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 @RequestMapping("/price")
 public class PriceController {
 
-    private final PriceService priceService;
+    private final IPriceService priceService;
 
     @GetMapping(value = "/rate", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Mono<Price> getRate(
